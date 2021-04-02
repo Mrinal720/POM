@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">FREE CRM Application Test Automation Test Suite</th></tr>
+<tr><td><a href="#t0">Free CRM App Test Cases</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">17,161</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FREE CRM Application Test Automation Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Free CRM App Test Cases &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qa.tests.HomePageTest</td><td><a href="#m0">teardown</a></td><td rowspan="1">1617378216339</td><td rowspan="1">1</td></tr><tr class="failedodd"><td rowspan="1">com.qa.tests.LoginPageTest</td><td><a href="#m1">teardown</a></td><td rowspan="1">1617378208858</td><td rowspan="1">3</td></tr><tr><th colspan="4">Free CRM App Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.tests.HomePageTest</td><td><a href="#m2">test1</a></td><td rowspan="1">1617378216315</td><td rowspan="1">22</td></tr><tr class="failedodd"><td rowspan="1">com.qa.tests.LoginPageTest</td><td><a href="#m3">test</a></td><td rowspan="1">1617378208830</td><td rowspan="1">21</td></tr><tr><th colspan="4">Free CRM App Test Cases &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">com.qa.tests.HomePageTest</td><td><a href="#m4">endReport</a></td><td rowspan="1">1617378216352</td><td rowspan="1">-1617378216352</td></tr><tr class="skippedeven"><td><a href="#m5">login</a></td><td rowspan="1">1617378216343</td><td rowspan="1">-1617378216343</td></tr><tr class="skippedeven"><td><a href="#m6">teardown</a></td><td rowspan="1">1617378216350</td><td rowspan="1">-1617378216350</td></tr><tr class="skippedodd"><td rowspan="5">com.qa.tests.LoginPageTest</td><td><a href="#m7">endReport</a></td><td rowspan="1">1617378216355</td><td rowspan="1">-1617378216355</td></tr><tr class="skippedodd"><td><a href="#m8">initial</a></td><td rowspan="2">1617378208873</td><td rowspan="2">-1617378208873</td></tr><tr class="skippedodd"><td><a href="#m9">initial</a></td></tr><tr class="skippedodd"><td><a href="#m10">teardown</a></td><td rowspan="2">1617378208871</td><td rowspan="2">-1617378208871</td></tr><tr class="skippedodd"><td><a href="#m11">teardown</a></td></tr><tr><th colspan="4">Free CRM App Test Cases &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.tests.HomePageTest</td><td><a href="#m12">test2</a></td><td rowspan="1">1617378216345</td><td rowspan="1">1</td></tr><tr class="skippedodd"><td rowspan="2">com.qa.tests.LoginPageTest</td><td><a href="#m13">test2</a></td><td rowspan="1">1617378208868</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m14">test3</a></td><td rowspan="1">1617378208874</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Free CRM App Test Cases</h2><h3 id="m0">com.qa.tests.HomePageTest#teardown</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=test1 status=FAILURE method=HomePageTest.test1()[pri:1, instance:com.qa.tests.HomePageTest@2b91004a] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.tests.HomePageTest.teardown(HomePageTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.tests.LoginPageTest#teardown</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=test status=FAILURE method=LoginPageTest.test()[pri:1, instance:com.qa.tests.LoginPageTest@3232a28a] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.tests.LoginPageTest.teardown(LoginPageTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.tests.HomePageTest#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [welcome] but found []
+	at com.qa.tests.HomePageTest.test1(HomePageTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.tests.LoginPageTest#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Facebook] but found [Facebook – log in or sign up]
+	at com.qa.tests.LoginPageTest.test(LoginPageTest.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.tests.HomePageTest#endReport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.tests.HomePageTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.tests.HomePageTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.tests.LoginPageTest#endReport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.tests.LoginPageTest#initial</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.tests.LoginPageTest#initial</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.qa.tests.LoginPageTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.qa.tests.LoginPageTest#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.qa.tests.HomePageTest#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.tests.HomePageTest.teardown(HomePageTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.qa.tests.LoginPageTest#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.tests.LoginPageTest.teardown(LoginPageTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.qa.tests.LoginPageTest#test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.qa.tests.LoginPageTest.teardown(LoginPageTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
